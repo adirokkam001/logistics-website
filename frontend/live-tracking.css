@@ -1,0 +1,44 @@
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+  font-family:Poppins,sans-serif;
+}
+
+body{
+  background:#f5f7fb;
+}
+
+.container{
+  width:90%;
+  max-width:700px;
+  margin:80px auto;
+  background:#fff;
+  padding:50px;
+  border-radius:20px;
+  box-shadow:0 10px 30px rgba(0,0,0,0.1);
+}
+
+h1{
+  text-align:center;
+  margin-bottom:40px;
+  font-size:45px;
+}
+
+.tracking-box{
+  display:flex;
+  flex-direction:column;
+  gap:25px;
+}
+
+.status{
+  padding:20px;
+  border-radius:12px;
+  background:#ddd;
+  font-size:20px;
+}
+
+.status.active{
+  background:#22c55e;
+  color:#fff;
+}
